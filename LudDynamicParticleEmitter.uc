@@ -270,7 +270,7 @@ DefaultProperties
 	
 	fTouchDelay=1.5
 	bHurtTouching=true
-	HurtDamageType=class'LudDamageType_Burning_DOT'
+	HurtDamageType=class'DamageType'
 	
 	ParticleScale=1.0
 	ParticleTime=30.0

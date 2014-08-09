@@ -401,7 +401,7 @@ DefaultProperties
 {
 	RemoteRole=ROLE_SimulatedProxy
 	
-	ParticleSystemName=ParticleSystem'LudGameParticles.ParticleSystems.NewTestFire_smokeTest'
+	ParticleSystemName=ParticleSystem'Test_FireParticles.ParticleSystems.SpreadingFire_PS'
 
 	iMaxNumEmitters=24				// 16-24 for good quality vs performance ratio
 	fTimePerInstance=60.0			// should always be higher than fSpreadingRate, is influenced by the fire's calculated scale
@@ -424,7 +424,7 @@ DefaultProperties
 	vUpTrace=(x=0,y=0,z=1)
 	
 	Begin Object class=AudioComponent Name=AreaSoundCompo
-		SoundCue=SoundCue'LudGame_Sounds.Fire01Loop'
+		SoundCue=SoundCue'Test_FireParticles.Sounds.Fire_Looping_Cue'
 	End Object
 	AreaAudioComponent=AreaSoundCompo
 	Components.Add(AreaSoundCompo);
