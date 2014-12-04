@@ -16,8 +16,8 @@ LightFunction_Fire.uc and LudPhysicalMaterialProperty.uc are examples for your o
 If you already have a PhysicalMaterialProperties class, just copy over the fFlammability and fFireSizeScale variables.
 
 Assets are available at
-http://www.gamefront.com/files/24403121/FireTutorial_ExampleFiles.zip
 
+http://www.gamefront.com/files/24655740/FireActor_ExampleFiles.zip
 
 
 spawn with something like this:
